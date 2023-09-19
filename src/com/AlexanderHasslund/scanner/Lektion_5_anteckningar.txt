@@ -36,3 +36,5 @@ med equal() parsar vi in den värdet och jämför endast karaktärerna.
 
 lägg till NoSuchExceptions för sträng för om den är tom vill vi kasta ett fel
 
+//git push -u origin <BRANCH_NAME>
+
