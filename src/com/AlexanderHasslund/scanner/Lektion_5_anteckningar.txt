@@ -38,3 +38,13 @@ lägg till NoSuchExceptions för sträng för om den är tom vill vi kasta ett f
 
 //git push -u origin <BRANCH_NAME>
 
+public void (<-- argument -->)
+
+att passera in scanner som en parameter för att senare kunna vara ett argument är inte dåligt.
+Det underlättar användningen av det och slipper ha flera scanner överallt
+
+Conditional rendering
+while (! <<<)
+
+
+
