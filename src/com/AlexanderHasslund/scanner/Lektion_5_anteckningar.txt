@@ -20,5 +20,14 @@ Visibility = modifiers
 
 Input with Scanner
 
+Klass som heter: System
+Sen kommer vi in i klassen för att använda oss av metoden -> println();
+Scanner är en klass som i sig blir en datatyp.
+instansiering, skapandet av ett objekt
+Scanner myObject = new Scanner();
+
+Indentera koden innan vi skickar in den så att allt blir lättläst.
+
+
 
 
