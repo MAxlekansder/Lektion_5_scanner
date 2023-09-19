@@ -1,0 +1,24 @@
+UML & Scanners
+
+Unified languages to instruct with..
+
+Kolla lite på hur man bäst strukturerar sina projekt
+ska superclass ligga i main? Är det en egen?
+
+UML diagram ->
+har vi många relationer inom vår app är det viktigt att hålla det rent
+se till att kunna sätta upp koden på ett överskådligt plan, för att enkelt kunna förstå hur allt går till väga.
+
+UML - standardiserat sätt att kommunicera med utvecklare oberoende av språk
+Underlättarförståelsen med visuellt grafiska bilder
+Enklareatt förklara systemdesign
+
+arv -> inheritance
+Attribute = variabler
+Operations = Metoder
+Visibility = modifiers
+
+Input with Scanner
+
+
+
