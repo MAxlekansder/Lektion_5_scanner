@@ -1,5 +1,6 @@
 package com.AlexanderHasslund.scanner;
 
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
@@ -25,21 +26,37 @@ public class Main {
 
      */
 
-     do {
-         System.out.println("did this run?");
-     } while (false);
+        boolean isPlaying = true;
+
+        do {
+
+            //vi måste tilldela resultatet från metoden om vi retunerar den
+            String result = scannerMain();
+
+            //kan även använda dig av objektets funktion "."
+            //if (result.equals("hi) --> gå visdare
+            if (Objects.equals(result, "hi")) {
+                System.out.println("its true");
+            } else {
+                System.out.println("det var fel resultat");
+                isPlaying = false;
+            }
+
+        } while (isPlaying);
 
 
     }
 
     //helst vill man bryta ut metoder
-    public static void scannerMain() {
+    public static String scannerMain() {
         //static ska inte finnas med om det finns i en annan klass
+        //scan = objekt
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Insert some sentence");
-        scan.nextLine();
+        String input = scan.nextLine();
 
+        return input;
     }
 }
 

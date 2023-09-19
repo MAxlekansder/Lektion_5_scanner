@@ -28,6 +28,10 @@ Scanner myObject = new Scanner();
 
 Indentera koden innan vi skickar in den så att allt blir lättläst.
 
+break behöver man skriva ut flera gånger
+medan return tar dig ur dig så fort värdet är hittat
 
+med att använda == jämför vi vart strängens plats i minnet befinner sig
+med equal() parsar vi in den värdet och jämför endast karaktärerna.
 
 
