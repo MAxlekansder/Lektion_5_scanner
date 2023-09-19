@@ -27,7 +27,7 @@ public class Main {
      */
 
         boolean isPlaying = true;
-
+        /*
         do {
 
             //vi måste tilldela resultatet från metoden om vi retunerar den
@@ -35,7 +35,8 @@ public class Main {
 
             //kan även använda dig av objektets funktion "."
             //if (result.equals("hi) --> gå visdare
-            if (Objects.equals(result, "hi")) {
+            //(Objects.equals(result, "hi") --> gå vidare
+            if (result.equals("hi")) {
                 System.out.println("its true");
             } else {
                 System.out.println("det var fel resultat");
@@ -44,6 +45,19 @@ public class Main {
 
         } while (isPlaying);
 
+         */
+        do {
+            int result = scannerNumber();
+
+            if (result == 1) {
+                System.out.println("its true");
+                isPlaying = false;
+            } else {
+                System.out.println("fel siffra");
+            }
+            
+
+        } while (isPlaying);
 
     }
 
@@ -57,6 +71,14 @@ public class Main {
         String input = scan.nextLine();
 
         return input;
+    }
+
+    public static int scannerNumber() {
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("please insert a number");
+
+        return scan.nextInt();
     }
 }
 
