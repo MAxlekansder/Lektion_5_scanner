@@ -34,4 +34,5 @@ medan return tar dig ur dig så fort värdet är hittat
 med att använda == jämför vi vart strängens plats i minnet befinner sig
 med equal() parsar vi in den värdet och jämför endast karaktärerna.
 
+lägg till NoSuchExceptions för sträng för om den är tom vill vi kasta ett fel
 

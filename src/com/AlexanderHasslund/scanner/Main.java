@@ -49,13 +49,16 @@ public class Main {
         do {
             int result = scannerNumber();
 
-            if (result == 1) {
-                System.out.println("its true");
-                isPlaying = false;
-            } else {
-                System.out.println("fel siffra");
+            for (int i = 0; i < result; i++) {
+                System.out.println(i);
+                System.out.println("såhär många gånger");
+
             }
-            
+
+            if (result > 1000) {
+                isPlaying = false;
+            }
+
 
         } while (isPlaying);
 
